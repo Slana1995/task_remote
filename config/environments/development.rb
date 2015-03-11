@@ -1,5 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
+<<<<<<< HEAD
   # require 'tlsmail'
   #       Net::SMTP.enable_tls(OpenSSL::SSL::VERIFY_NONE)
   #       ActionMailer::Base.delivery_method = :smtp
@@ -25,6 +26,9 @@ Rails.application.configure do
     }
 
       config.action_mailer.raise_delivery_errors = true
+=======
+
+>>>>>>> 07fcd02de4b45aa36c2f0cd796957c78c072bf84
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
@@ -49,7 +53,12 @@ Rails.application.configure do
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
+<<<<<<< HEAD
   config.assets.debug = false
+=======
+  config.assets.debug = true
+
+>>>>>>> 07fcd02de4b45aa36c2f0cd796957c78c072bf84
   # Asset digests allow you to set far-future HTTP expiration dates on all assets,
   # yet still be able to expire them through the digest params.
   config.assets.digest = true

@@ -19,6 +19,7 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
+<<<<<<< HEAD
 # en:
 #   hello: "Hello world"
 en:
@@ -29,3 +30,7 @@ en:
       user:
         login: "Handle"
       # will translate User attribute "login" as "Handle"
+=======
+en:
+  hello: "Hello world"
+>>>>>>> 07fcd02de4b45aa36c2f0cd796957c78c072bf84

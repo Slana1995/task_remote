@@ -25,9 +25,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+<<<<<<< HEAD
 gem 'carrierwave'
 gem 'tlsmail'
 gem 'russian', '~> 0.6.0'
+=======
+
+>>>>>>> 07fcd02de4b45aa36c2f0cd796957c78c072bf84
 # Use Unicorn as the app server
 # gem 'unicorn'
 

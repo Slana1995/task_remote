@@ -67,10 +67,13 @@ Rails.application.configure do
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
   config.i18n.fallbacks = true
+<<<<<<< HEAD
  # tell the I18n library where to find your translations
  I18n.load_path += Dir[Rails.root.join('lib', 'locale', '*.{rb,yml}')]
   
  # set default locale to something other than :en
+=======
+>>>>>>> 07fcd02de4b45aa36c2f0cd796957c78c072bf84
 
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify

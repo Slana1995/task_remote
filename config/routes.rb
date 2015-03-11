@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   resources :users
 
   root 'users#index'
 
   resources :items
 
+=======
+>>>>>>> 07fcd02de4b45aa36c2f0cd796957c78c072bf84
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
