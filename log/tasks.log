@@ -1,0 +1,55 @@
+# Logfile created on 2015-03-06 08:44:26 +0300 by logger.rb/47272
+I, [2015-03-06T08:44:26.270619 #3886]  INFO -- : Task complete
+I, [2015-03-06T08:52:00.410133 #3923]  INFO -- : Task complete
+I, [2015-03-06T08:57:17.907893 #3942]  INFO -- : Transfer data  complete
+I, [2015-03-06T08:58:01.219446 #3951]  INFO -- : Transfer data  complete
+I, [2015-03-06T08:58:43.846130 #3959]  INFO -- : Transfer data  complete
+I, [2015-03-06T09:01:05.838779 #3969]  INFO -- : Transfer data  complete
+I, [2015-03-06T09:02:25.382417 #3985]  INFO -- : Transfer datacomplete
+I, [2015-03-06T09:02:28.674130 #3992]  INFO -- : Transfer datacomplete
+I, [2015-03-06T09:08:29.950357 #4066]  INFO -- : Transfer data DBNAME complete
+I, [2015-03-06T09:10:37.866255 #4128]  INFO -- : Transfer data  complete
+D, [2015-03-06T10:36:18.857951 #4797] DEBUG -- :   [1m[36m (108.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+D, [2015-03-06T10:36:18.858580 #4797] DEBUG -- :   [1m[35m (0.2ms)[0m  select sqlite_version(*)
+D, [2015-03-06T10:36:18.958721 #4797] DEBUG -- :   [1m[36m (99.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+D, [2015-03-06T10:36:18.961078 #4797] DEBUG -- :   [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+I, [2015-03-06T10:36:18.969416 #4797]  INFO -- : Migrating to CreateItems (20150226073855)
+D, [2015-03-06T10:36:18.984678 #4797] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2015-03-06T10:36:18.987564 #4797] DEBUG -- :   [1m[35m (0.8ms)[0m  CREATE TABLE "items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+D, [2015-03-06T10:36:18.997128 #4797] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150226073855"]]
+D, [2015-03-06T10:36:19.170846 #4797] DEBUG -- :   [1m[35m (173.2ms)[0m  commit transaction
+I, [2015-03-06T10:36:19.171028 #4797]  INFO -- : Migrating to CreateUsers (20150305072320)
+D, [2015-03-06T10:36:19.172694 #4797] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+D, [2015-03-06T10:36:19.174909 #4797] DEBUG -- :   [1m[35m (0.7ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "login" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+D, [2015-03-06T10:36:19.176962 #4797] DEBUG -- :   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150305072320"]]
+D, [2015-03-06T10:36:19.327496 #4797] DEBUG -- :   [1m[35m (150.0ms)[0m  commit transaction
+I, [2015-03-06T11:13:13.680457 #5287]  INFO -- : Transfer data complete
+I, [2015-03-06T11:13:22.786843 #5332]  INFO -- : Transfer data complete
+I, [2015-03-06T11:16:46.893888 #5443]  INFO -- : Transfer data complete
+D, [2015-03-06T11:20:11.301880 #5590] DEBUG -- :   [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+I, [2015-03-06T11:20:11.305947 #5590]  INFO -- : Transfer data complete
+D, [2015-03-06T11:21:52.466233 #5645] DEBUG -- :   [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+I, [2015-03-06T11:21:52.470218 #5645]  INFO -- : Transfer data complete
+D, [2015-03-06T11:21:59.540549 #5667] DEBUG -- :   [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+D, [2015-03-06T11:22:13.394052 #5690] DEBUG -- :   [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+D, [2015-03-06T11:22:38.570164 #5698] DEBUG -- :   [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+D, [2015-03-06T11:23:06.558218 #5719] DEBUG -- :   [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+D, [2015-03-06T11:23:12.918927 #5728] DEBUG -- :   [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+I, [2015-03-06T11:23:12.925787 #5728]  INFO -- : Transfer data complete
+D, [2015-03-06T11:23:24.882982 #5755] DEBUG -- :   [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+D, [2015-03-06T11:23:24.889834 #5755] DEBUG -- :   [1m[35m (0.0ms)[0m  begin transaction
+D, [2015-03-06T11:23:24.891524 #5755] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Angelina"], ["created_at", "2015-03-06 08:23:24.889959"], ["updated_at", "2015-03-06 08:23:24.889959"]]
+D, [2015-03-06T11:23:25.004851 #5755] DEBUG -- :   [1m[35m (113.1ms)[0m  commit transaction
+D, [2015-03-06T11:23:25.005286 #5755] DEBUG -- :   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+D, [2015-03-06T11:23:25.005882 #5755] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Lana"], ["created_at", "2015-03-06 08:23:25.005375"], ["updated_at", "2015-03-06 08:23:25.005375"]]
+D, [2015-03-06T11:23:25.128171 #5755] DEBUG -- :   [1m[36m (122.1ms)[0m  [1mcommit transaction[0m
+I, [2015-03-06T11:23:25.128255 #5755]  INFO -- : Transfer data complete
+D, [2015-03-06T11:24:19.195737 #5811] DEBUG -- :   [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+D, [2015-03-06T11:24:19.202628 #5811] DEBUG -- :   [1m[35m (0.0ms)[0m  begin transaction
+D, [2015-03-06T11:24:19.204368 #5811] DEBUG -- :   [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "login", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Angelina"], ["email", "sycheva_95@mail.ru"], ["login", "AngelinaS"], ["created_at", "2015-03-06 08:24:19.202755"], ["updated_at", "2015-03-06 08:24:19.202755"]]
+D, [2015-03-06T11:24:19.332738 #5811] DEBUG -- :   [1m[35m (128.1ms)[0m  commit transaction
+D, [2015-03-06T11:24:19.333205 #5811] DEBUG -- :   [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+D, [2015-03-06T11:24:19.333829 #5811] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "login", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Lana"], ["email", "lll@email.ru"], ["login", "Lana2104"], ["created_at", "2015-03-06 08:24:19.333292"], ["updated_at", "2015-03-06 08:24:19.333292"]]
+D, [2015-03-06T11:24:19.466990 #5811] DEBUG -- :   [1m[36m (132.9ms)[0m  [1mcommit transaction[0m
+I, [2015-03-06T11:24:19.467064 #5811]  INFO -- : Transfer data complete
+D, [2015-03-06T11:27:06.579342 #5902] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
