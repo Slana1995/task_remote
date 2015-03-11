@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'text/index'
+  root 'text#index'
 
   get 'text/create'
 
