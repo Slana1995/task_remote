@@ -1,2 +1,0 @@
-class UserMail < ApplicationMailer
-end
